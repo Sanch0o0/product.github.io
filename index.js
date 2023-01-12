@@ -20,7 +20,6 @@ searchForm.addEventListener('submit', searchProduct);
 fetch('https://dummyjson.com/products')
     .then(res => res.json())
     .then((data) => {
-        // Start here :)
         products = data.products;
         console.log(products);
 
