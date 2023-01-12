@@ -155,7 +155,6 @@ function searchProduct(event) {
     let searchProducts = products.filter((product) => {
         return product.title.toLowerCase('').includes(title);
     })
-    console.log(searchProducts);
 
     renderProductBox(searchProducts);
 }
